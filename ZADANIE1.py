@@ -27,3 +27,9 @@ for i in range(len(A)):
     if A[i][4] == "None":
         A[i][4] = str(d[A[i][3]])
 
+f = open("student_new.csv","w",encoding= "utf8")
+f.writelines("id,name,tittleProject_id,class,score\n")
+for x in A:
+    f.writelines(",".join(x) + "\n")
+f.close()
+
