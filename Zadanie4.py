@@ -12,9 +12,9 @@ def login(x):
 
 
 def password():
-    """"
+    """
     Функция для создания пароля пользователя
-    """"
+    """
     A = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     a = A.lower()
     c = '0123456789'
