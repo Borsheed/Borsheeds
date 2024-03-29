@@ -20,7 +20,7 @@ for i in range(len(A)):
             d[clas] += [score]
 
 
-
+#бабуин
 
 for clas in d:
     d[clas] = sum((d[clas])/len(d[clas]),3)
