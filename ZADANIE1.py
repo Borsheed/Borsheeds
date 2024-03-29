@@ -19,9 +19,15 @@ for i in range(len(A)):
         else:
             d[clas] += [score]
 
+
+
+
 for clas in d:
     d[clas] = sum((d[clas])/len(d[clas]),3)
 print(d)
+
+
+
 
 for i in range(len(A)):
     if A[i][4] == "None":
@@ -32,4 +38,7 @@ f.writelines("id,name,tittleProject_id,class,score\n")
 for x in A:
     f.writelines(",".join(x) + "\n")
 f.close()
+
+
+
 
